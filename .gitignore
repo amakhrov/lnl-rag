@@ -11,3 +11,8 @@
 
 #!.yarn/cache
 .pnp.*
+
+.idea
+yarn-error.log
+.env
+src/data/vector
