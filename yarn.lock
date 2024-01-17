@@ -322,6 +322,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@langchain/core@npm:^0.1.15":
+  version: 0.1.15
+  resolution: "@langchain/core@npm:0.1.15"
+  dependencies:
+    ansi-styles: "npm:^5.0.0"
+    camelcase: "npm:6"
+    decamelize: "npm:1.2.0"
+    js-tiktoken: "npm:^1.0.8"
+    langsmith: "npm:~0.0.48"
+    ml-distance: "npm:^4.0.0"
+    p-queue: "npm:^6.6.2"
+    p-retry: "npm:4"
+    uuid: "npm:^9.0.0"
+    zod: "npm:^3.22.3"
+    zod-to-json-schema: "npm:3.20.3"
+  checksum: f7696c3c4c82321013bbf2c050f7dec3521c4ebbfd52d534b161817f63b0eb51ce62bb7998f21643e54506d6e119d1004d06812d671cf6910be12941f120bb5d
+  languageName: node
+  linkType: hard
+
 "@langchain/core@npm:~0.1.13, @langchain/core@npm:~0.1.9":
   version: 0.1.14
   resolution: "@langchain/core@npm:0.1.14"
@@ -1410,6 +1429,7 @@ __metadata:
   resolution: "lnl-rag@workspace:."
   dependencies:
     "@langchain/community": "npm:^0.0.17"
+    "@langchain/core": "npm:^0.1.15"
     "@langchain/openai": "npm:^0.0.12"
     "@types/node": "npm:^20.11.4"
     faiss-node: "npm:^0.5.1"

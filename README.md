@@ -36,3 +36,9 @@ Edit the query at the top of `src/retrieve.ts`. Then run
 ```
 yarn ts-node src/retrieve.ts
 ```
+
+### Generate response with LLM, using the RAG technique
+Edit the query at the top of `src/generate.ts`. Then run
+```
+yarn ts-node src/generate.ts
+```
